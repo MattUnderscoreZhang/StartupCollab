@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "737338530003",
+    "firebase_url": "https://test-database-601c6-default-rtdb.firebaseio.com",
+    "project_id": "test-database-601c6",
+    "storage_bucket": "test-database-601c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737338530003:android:336ad911e875bb40ca9c26",
+        "android_client_info": {
+          "package_name": "com.example.sign_in_screen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737338530003-aabaps9ns4346ct4dlbiesvmpe80rrj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUV_XMirq34RnvBvZSD5UHVC2uGiTc7As"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737338530003-aabaps9ns4346ct4dlbiesvmpe80rrj5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "737338530003-7n1mef6rp04if02u5mgnmm9o48jvrdr5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.signInScreen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
