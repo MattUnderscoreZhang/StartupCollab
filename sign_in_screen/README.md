@@ -1,15 +1,19 @@
-# Instructions on Mac
+# Instructions for Firebase on Mac
 ## Install Dependencies
 brew install awscli
 brew install node
-sudo npm install -g @aws-amplify/cli
-brew install jq
-sudo gem install cocoapods
+sudo npm install -g firebase-tools
+sudo npm install -g firebaseui
 ## Install Flutter Dependencies
 cd sign_in_screen
 flutter pub get
-amplify init (for authentication select "AWS profile" and make a new user)
+dart pub global activate flutterfire_cli
+## Set Up Firebase
+firebase login
+firebase init (select Realtime Database)
+flutterfire configure --project=[database name]
 ## Resources
-https://aws.amazon.com/blogs/mobile/amplify-cli-adds-scaffolding-support-for-amplify-apps-and-authoring-plugins/
-https://ui.docs.amplify.aws/flutter/connected-components/authenticator
-https://github.com/aws-amplify/amplify-flutter/issues/234
+https://firebase.google.com/docs/cli?authuser=0&hl=en#mac-linux-npm
+https://firebase.google.com/docs/flutter/setup?authuser=0&hl=en&platform=android#available-plugins
+https://github.com/firebase/flutterfire/tree/master/packages
+https://github.com/firebase/flutterfire/blob/master/packages/flutterfire_ui/doc/auth.md
