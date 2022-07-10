@@ -11,3 +11,5 @@ flutter pub get
 amplify init (for authentication select "AWS profile" and make a new user)
 ## Resources
 https://aws.amazon.com/blogs/mobile/amplify-cli-adds-scaffolding-support-for-amplify-apps-and-authoring-plugins/
+https://ui.docs.amplify.aws/flutter/connected-components/authenticator
+https://github.com/aws-amplify/amplify-flutter/issues/234
