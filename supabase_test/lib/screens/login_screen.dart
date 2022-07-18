@@ -4,14 +4,14 @@ import 'package:supabase/supabase.dart';
 import 'package:supabase_test/components/auth_state.dart';
 import 'package:supabase_test/components/snack_bar.dart';
 
-class LoginPage extends StatefulWidget {
-    const LoginPage({Key? key}) : super(key: key);
+class LoginScreen extends StatefulWidget {
+    const LoginScreen({Key? key}) : super(key: key);
 
     @override
-    LoginPageState createState() => LoginPageState();
+    LoginScreenState createState() => LoginScreenState();
 }
 
-class LoginPageState extends AuthState<LoginPage> {
+class LoginScreenState extends AuthState<LoginScreen> {
     bool _isLoading = false;
     late final TextEditingController _emailController;
 

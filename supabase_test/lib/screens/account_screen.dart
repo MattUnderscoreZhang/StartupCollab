@@ -3,14 +3,14 @@ import 'package:supabase/supabase.dart';
 import 'package:supabase_test/components/auth_required_state.dart';
 import 'package:supabase_test/components/snack_bar.dart';
 
-class AccountPage extends StatefulWidget {
-    const AccountPage({Key? key}) : super(key: key);
+class AccountScreen extends StatefulWidget {
+    const AccountScreen({Key? key}) : super(key: key);
 
     @override
-    AccountPageState createState() => AccountPageState();
+    AccountScreenState createState() => AccountScreenState();
 }
 
-class AccountPageState extends AuthRequiredState<AccountPage> {
+class AccountScreenState extends AuthRequiredState<AccountScreen> {
     final _usernameController = TextEditingController();
     final _websiteController = TextEditingController();
     var _loading = false;
