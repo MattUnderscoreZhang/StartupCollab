@@ -17,7 +17,6 @@ Future<void> main() async {
         /*);*/
         FlutterFireUIAuth.configureProviders([
             const EmailProviderConfiguration(),
-            const PhoneProviderConfiguration(),
             const GoogleProviderConfiguration(
                 clientId: "...",
             ),
