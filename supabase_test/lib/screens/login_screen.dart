@@ -8,7 +8,7 @@ class LoginPage extends StatefulWidget {
     const LoginPage({Key? key}) : super(key: key);
 
     @override
-        LoginPageState createState() => LoginPageState();
+    LoginPageState createState() => LoginPageState();
 }
 
 class LoginPageState extends AuthState<LoginPage> {
@@ -34,7 +34,6 @@ class LoginPageState extends AuthState<LoginPage> {
             context.showSnackBar(message: 'Check your email for login link!');
             _emailController.clear();
         }
-
         setState(() {
             _isLoading = false;
         });
